@@ -1,0 +1,23 @@
+{
+  "name": "apps",
+  "module": "server/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun server/index.ts",
+    "dev": "bun --watch server/index.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.3",
+    "@tailwindcss/vite": "^4.0.9",
+    "hono": "^4.7.2",
+    "tailwindcss": "^4.0.9",
+    "zod": "^3.24.2"
+  }
+}
