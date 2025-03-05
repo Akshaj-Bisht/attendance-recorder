@@ -42,7 +42,7 @@ export const attdendenceRoute = new Hono()
 		c.status(201);
 		return c.json(attend);
 	})
-	// i wnat
+
 	.get("/attend/:id{[0-9]+}", (c) => {
 		const id = parseInt(c.req.param("id"));
 		const student = fakeDB.find((attend) => attend.id === id);
