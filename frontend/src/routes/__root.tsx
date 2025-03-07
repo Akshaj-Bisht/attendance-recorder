@@ -16,6 +16,9 @@ function NavBar() {
 			<Link to="/add-subject" className="[&.active]:font-bold">
 				Add subject
 			</Link>
+			<Link to="/profile" className="[&.active]:font-bold">
+				profile
+			</Link>
 		</div>
 	);
 }
